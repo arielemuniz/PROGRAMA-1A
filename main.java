@@ -14,18 +14,7 @@ public class main {
 			  int nota = ler.nextInt();
 			  num.notasCompetidores.add(nota);
 		  }
-		  //ordena
 		  double num_class = num.calculaClassificados();
-		  /*System.out.printf("%d\n",num.notasCompetidores.get(0));
-		  System.out.printf("%d\n",num.notasCompetidores.get(1));
-		  System.out.printf("%d\n",num.notasCompetidores.get(2));
-		  System.out.printf("%d\n",num.notasCompetidores.get(3));
-		  System.out.printf("%d\n",num.notasCompetidores.get(4));
-		  System.out.printf("%d\n",num.notasCompetidores.get(5));
-		  System.out.printf("%d\n",num.notasCompetidores.get(6));
-		  System.out.printf("%d\n",num.notasCompetidores.get(7));
-		  System.out.printf("%d\n",num.notasCompetidores.get(8));
-		  System.out.printf("%d\n",num.notasCompetidores.get(9));*/
 		  double des_class = num.CalculaDP(num_class);
 		  double arit_class = num.CalculaMa(num_class);
 		  double des_comp = num.CalculaDP(N);
